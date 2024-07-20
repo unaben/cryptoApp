@@ -1,0 +1,33 @@
+.loading-text {
+  color: var(--light);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container {
+  background-color: var(--dark);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+  margin-top: 1rem;
+}
+
+.selector-wrap {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 0.2rem;
+  
+}
+
+.symbol {
+  flex: 2;
+}
+
+.limit {
+  flex: 1;
+}
+
+.main-container {
+  margin: 2rem 1rem 3rem;
+}
