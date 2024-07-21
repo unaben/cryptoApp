@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { BiChevronDown } from 'react-icons/bi';
 import { symbols } from '../../data';
-import styles from './SelectedSymbol.module.css';
 import { useManageStateProvider } from '../../context/ManageStateContext';
+import styles from './SelectedSymbol.module.css';
+
 
 const SelectedSymbol = () => {
   const [isOpen, setIsOpen] = useState<Boolean>(false);
